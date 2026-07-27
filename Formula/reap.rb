@@ -2,28 +2,28 @@
 class Reap < Formula
   desc "Find and prune stale developer junk, and know what is safe to lose"
   homepage "https://github.com/woksin/reap"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/woksin/reap/releases/download/v1.2.0/reap-macos-arm64.tar.gz"
-      sha256 "f4df25266b8bfed337d01c5a64b7b8062780dd86de71d1e03acd0777d2a613ce"
+      url "https://github.com/woksin/reap/releases/download/v1.3.0/reap-macos-arm64.tar.gz"
+      sha256 "f9131fcfc0bf8fec810c399756cbb344c8625937eca62ab97d4d32188b56c725"
     end
     on_intel do
-      url "https://github.com/woksin/reap/releases/download/v1.2.0/reap-macos-x86_64.tar.gz"
-      sha256 "6c9a6f4bb4706133674f41d80f7ae543cf2d55ff433cd0e79224ba0ad8d93e2b"
+      url "https://github.com/woksin/reap/releases/download/v1.3.0/reap-macos-x86_64.tar.gz"
+      sha256 "b2b0c4da044285a07a8b45a255e427b064b2d560cbb8539bcf9fee85f1d73910"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/woksin/reap/releases/download/v1.2.0/reap-linux-arm64.tar.gz"
-      sha256 "00fdb3c405f01e0ca5a9caa41b1adc437cf8c1a5736ade12198b5a339490f87b"
+      url "https://github.com/woksin/reap/releases/download/v1.3.0/reap-linux-arm64.tar.gz"
+      sha256 "c257edb0102a1629b3b3c26dd39bed8606a9942c1ffd1e37d04ae14e0f67a20e"
     end
     on_intel do
-      url "https://github.com/woksin/reap/releases/download/v1.2.0/reap-linux-x86_64.tar.gz"
-      sha256 "79d4774605274b30ce90266a4b3413593e697d8093de3bb5d589fc5e5110863f"
+      url "https://github.com/woksin/reap/releases/download/v1.3.0/reap-linux-x86_64.tar.gz"
+      sha256 "c9acb8589c5a58f93a6f0cbb00bc076d66a94440c418de543bda5fce40d0e2d4"
     end
   end
 
