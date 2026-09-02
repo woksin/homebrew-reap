@@ -2,28 +2,28 @@
 class Reap < Formula
   desc "Assess common stale developer and application data before pruning it"
   homepage "https://github.com/woksin/reap"
-  version "5.0.1"
+  version "5.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/woksin/reap/releases/download/v5.0.1/reap-macos-arm64.tar.gz"
-      sha256 "651dbc179572560460f1b4cce41400820d20c4782ec0e5ee5ffbed10e8b449ec"
+      url "https://github.com/woksin/reap/releases/download/v5.0.2/reap-macos-arm64.tar.gz"
+      sha256 "9b28e3ff6b2e78add20d90fc1e51eb3728ab8483dd4172c62589b309b3d0f70f"
     end
     on_intel do
-      url "https://github.com/woksin/reap/releases/download/v5.0.1/reap-macos-x86_64.tar.gz"
-      sha256 "c94b66283d9e432a320ec4dfa0402befe96ee835af14bdb4d8fad17e901685e2"
+      url "https://github.com/woksin/reap/releases/download/v5.0.2/reap-macos-x86_64.tar.gz"
+      sha256 "dd920fd2a3dc82c51624133abcc0e68de5edb5043e6038cf4cfc00287cce2c13"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/woksin/reap/releases/download/v5.0.1/reap-linux-arm64.tar.gz"
-      sha256 "cce41ac3aae128e6e228dd4508a57fe61bf2585d1f510ae0fb8912f5f94cbdf9"
+      url "https://github.com/woksin/reap/releases/download/v5.0.2/reap-linux-arm64.tar.gz"
+      sha256 "b18e148d33f444bef384e28fbd66618784dfed874321e93ed32c9a1b3a15f8d5"
     end
     on_intel do
-      url "https://github.com/woksin/reap/releases/download/v5.0.1/reap-linux-x86_64.tar.gz"
-      sha256 "467ab7737d107eafe18d2836f455ff0cabc9ed88f62bba0104434459029710c1"
+      url "https://github.com/woksin/reap/releases/download/v5.0.2/reap-linux-x86_64.tar.gz"
+      sha256 "d3fc1a27c7aa5c3422a76ab8bed36bf5f1a9cc322a644726fc851c64e5571a29"
     end
   end
 
